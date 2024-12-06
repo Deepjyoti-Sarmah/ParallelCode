@@ -17,7 +17,7 @@ func main() {
 	nums1 := make([]int, size)
 
 	for i := 0; i < size; i++ {
-		nums[i] = rand.Intn(1000)
+		nums[i] = rand.Intn(10000000)
 		nums1[i] = nums[i]
 	}
 
